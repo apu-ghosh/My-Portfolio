@@ -29,6 +29,18 @@
 
 
 @media(max-width: 768px) {
+
+.single-projects-item {
+    width: 48.33%;
+}
+.projects-icon h4 {
+    margin-left: 6px;
+}
+.projects-content {
+    padding: 30px;
+}
+
+	
 	.row {
     display: flex;
     flex-wrap: wrap;
@@ -93,6 +105,24 @@ section.request-from-area::before {
 }
 
 @media(max-width: 425px) {
+
+.single-projects-item {
+    width: 100%;
+    padding: 0 35px;
+}
+.projects-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-top-contact ul li a {
+    display: flex;
+}
+.header-top-contact ul li a i {
+    margin-right: 5px;
+    padding-top: 3px;
+}
+
+	
 header.header-area .row {
     flex-wrap: nowrap;
     display: flex;
